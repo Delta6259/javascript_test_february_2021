@@ -1,6 +1,7 @@
 'use strict';
 
 const args = require('yargs').argv;
+const _ = require('lodash')
 const filterParamValue = args.filter
 const countParamIsPresent = args['count']
 const mustFilter = ![null, undefined].includes(filterParamValue)
