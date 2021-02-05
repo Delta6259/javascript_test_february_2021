@@ -1,7 +1,8 @@
 const Utils = {}
 
-Utils.filterDataFromAnimals = ({data, animalTerm}) => {
-    // animal term example : 'ry'
+Utils.filterDataFromAnimals = ({countries, animalTerm}) => {
+    if (!animalTerm) return countries
+
 }
 
 Utils.mapWithCounters = (data) => {
