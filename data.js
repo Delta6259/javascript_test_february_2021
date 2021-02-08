@@ -1,5 +1,5 @@
 const data = [{
-    name: 'France',
+    name: 'Dillauti',
     people:
         [{
             name: 'Winifred Graham',
@@ -58,7 +58,7 @@ const data = [{
             }]
 },
     {
-        name: 'Allemagne',
+        name: 'Tohabdal',
         people:
             [{
                 name: 'Effie Houghton',
@@ -145,7 +145,7 @@ const data = [{
                 }]
     },
     {
-        name: 'Espagne',
+        name: 'Uzuzozne',
         people:
             [{
                 name: 'Harold Patton',
@@ -230,7 +230,7 @@ const data = [{
                 }]
     },
     {
-        name: 'Danemark',
+        name: 'Zuhackog',
         people:
             [{
                 name: 'Elva Baroni',
@@ -310,7 +310,7 @@ const data = [{
                 }]
     },
     {
-        name: 'Italie',
+        name: 'Satanwi',
         people:
             [{
                 name: 'Elmer Kinoshita',
@@ -368,8 +368,6 @@ const data = [{
                 }]
     }
 ]
-
-console.log('coucou la terre')
 
 module.exports = {
     data
