@@ -9,7 +9,7 @@ const data = require('./data').data
 const Utils = require('./utils')
 
 if (!mustFilter && !mustCount) {
-    console.log(data)
+    console.log(JSON.stringify(data))
     console.log('No parameters given : the full data list is returned.')
     return
 }
