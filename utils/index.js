@@ -37,10 +37,21 @@ Utils.filterDataFromAnimalTerm = ({countries, animalTerm}) => {
         })
 }
 
-Utils.appendCountersToListEntities = (data) => {
+Utils.appendCountersToListEntities = (countries) => {
     // append countries / people names with sub object counters
 
-    return 'TEST2'
+    return countries
+        .map(country => {
+            return {
+                name: country.people.length ? country.name + ` [${country.people.length}]` : '',
+                people: country.people.map(p => {
+                    return {
+                        name: p.animals.length ? p.name + ` [${p.animals.length}]` : '',
+                        animals: p.animals
+                    }
+                })
+            }
+        })
 }
 
 module.exports = Utils
